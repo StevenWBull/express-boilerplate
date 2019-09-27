@@ -7,10 +7,11 @@
     "test": "mocha",
     "start": "node src/server",
     "dev": "nodemon src/server",
-    "predeploy": "npm audit",
+    "predeploy": "npm audit --fix",
     "deploy": "git push heroku master"
   },
   "keywords": [],
+  "engines": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
